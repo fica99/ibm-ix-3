@@ -1,0 +1,24 @@
+.profile {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.left {
+  float: left;
+  width: 42%;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  margin-left: 50px;
+}
+
+.profile ul {
+  list-style-type: none;
+}
+
+.right {
+  float: left;
+  width: 48%;
+  margin-right: 50px;
+}

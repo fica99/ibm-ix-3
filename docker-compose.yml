@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+    backend:
+        build: backend/
+        command: python main.py
+        ports:
+            - 80:80
+        networks:
+            - ibm
+
+    frontend:
+        build: frontend/
+        command: npm start
+        ports:
+            - 3000:3000
+        depends_on:
+            - backend
+        stdin_open: true
+        networks:
+            - ibm
+
+networks:
+    ibm:
+        driver: bridge
+
+#docker-compose build
+#docker-compose up
+

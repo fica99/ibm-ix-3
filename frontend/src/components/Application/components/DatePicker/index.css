@@ -1,0 +1,50 @@
+.notice {
+  display: block;
+  color: #666666;
+  text-align: center;
+  font-size: 12px;
+  width: 220px;
+  margin-left: 20px;
+}
+
+.top {
+  border-top: 1px solid #666666;
+}
+
+.notice span {
+  font-weight: bold;
+}
+
+.DayPicker-Week {
+  font-size: 12px;
+}
+.buttonOk {
+  margin: 0 80px 5px 80px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  width: 60px;
+  height: 20px;
+}
+
+.buttonOk:hover {
+  border: 1px solid #4178be;
+  color: #4178be;
+}
+
+.calendarBlock {
+  /* margin-top: 10px; */
+  display: absolute;
+}
+
+.calendar {
+  position: absolute;
+  border-radius: 10px;
+  background-color: #F3F3F3;
+  width: 258px;
+  border: 1px solid #d9d9d9;
+}

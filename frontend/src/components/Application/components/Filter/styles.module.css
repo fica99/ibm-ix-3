@@ -1,0 +1,160 @@
+.head {
+  display: flex;
+  padding: 10px 0px 10px;
+  margin-left: 5%;
+  margin-right: 3%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.titleHistory {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  color: #333333;
+  margin-top: 10px;
+}
+
+.createOrder {
+  margin-top: 10px;
+  border: 1px solid#4178be;;
+  color:#4178be;
+  background: white;
+  border-radius: 100px;
+  padding: 5px 10px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-display: swap;
+  float: left;
+  cursor: pointer;
+}
+
+/* Block */
+
+.block {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 10px 20px 20px;
+  margin: 0px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.blockButton {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 0px 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+.filterButton {
+  font-size: 14px;
+  font-display: swap;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #d9d9d9;
+  position: relative;
+  box-shadow: 0 2px 3px 0 #e3eaf4;
+  padding: 5px 60px 5px 16px;
+  cursor: pointer;
+  color: #6d7278;
+  align-items: center;
+  transition: all 300ms;
+  font-weight: bold;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  font-size: 14px;
+  font-weight: 300;
+  font-display: swap;
+  margin-bottom: 30px;
+}
+
+.filterBlock {
+  display: flex;
+  padding: 16px 0px 10px;
+  margin: 0 25px 0 25px;
+  justify-content: space-between;
+}
+
+.line {
+  display: flex;
+  margin-bottom: 10px;
+  border-top: 1px solid #cccccc;
+  margin: 0 25px 10px 25px;
+}
+
+.filterBlockButton {
+  display:flex;
+  justify-content: flex-end;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 300;
+  font-display: swap;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+
+.loadFilterButton {
+  padding: 0px 15px 0px 15px;
+  font-weight: 200;
+  text-align: center;
+  color: #030303;
+  background: linear-gradient(#ffffff, #e6e6e6);
+  background-repeat: repeat;
+  background-position: left top;
+  border: 1px solid #cccccc;
+  border-radius: 100px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+}
+
+.resetFilterButton {
+  cursor: pointer;
+  font-weight: 400;
+  -webkit-box-align: center;
+  transition: all 300ms ease 0s;
+  padding: 0px 20px 0px 20px;
+  align-items: center;
+}
+
+.resetFilterButton:hover{
+  color:#333 ;
+}
+
+.filterButton:hover{
+  color:white;
+  background-color: #333;
+}
+
+.createOrder:hover{
+  border: 1px solid#6d7278;
+  color:white;
+  background-color: #333;
+}
+
+.loadFilterButton:hover{
+  color:#4178be;
+}
+
+.filterArrow{
+  width: 14px;
+  height: 8px;
+  position: absolute;
+  right: 16px;
+  top: 11px;
+  transform: rotate(0);
+  transition-property: background, transform;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  background: url('../../../Profile/Data/arrow_up.svg') no-repeat;
+}

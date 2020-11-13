@@ -1,0 +1,223 @@
+.createApplicationBlock {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 10px 20px 20px;
+  margin: 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.block {
+  display: flex;
+  color: #b2b2b2;
+  justify-content: space-between;
+}
+
+.createApplicationTitle {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  color: #333333;
+  margin-left: 15px;
+}
+
+.createApplicationClose {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Заявка */
+.createApplicationBody {
+  border-radius: 6px;
+  background-color: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.createApplicationItem {
+  display: flex;
+  padding: 10px 15px 10px 15px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.dateBlock {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #434343;
+  margin-top: 10px;
+}
+
+.dateBlock span {
+  font-weight: 600;
+}
+
+.styledResetApplicationButton {
+  margin-top: 10px;
+  margin-right: 60px;
+  font-size: 16px;
+  font-weight: 200;
+  color: #666666;
+  font-display: swap;
+  float: left;
+  cursor: pointer;
+}
+
+.styledResetApplicationButton:hover {
+  color: #333;
+  font-weight: 400;
+}
+
+.line {
+  display: flex;
+  margin-bottom: 10px;
+  border-top: 2px solid #cccccc;
+  margin: 0 15px 10px 15px;
+}
+
+/* Приоритет */
+.styledPriority {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 100px 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.createApplication {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.application {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+}
+
+.createApplicationPriority {
+  display: flex;
+  flex-direction: column;
+}
+
+.createApplicationPriority div {
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.createApplicationPriority select {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  height: 33px;
+  width: 200px;
+  color: #4e5155
+}
+
+.questionTitle {
+  font-weight: 400;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.answer_1 input {
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 700px;
+  border-radius: 5px;
+}
+
+.answer_2 input {
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 572px;
+  border-radius: 5px;
+}
+
+.answer_3 select {
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 572px;
+  border-radius: 5px;
+}
+
+.answer_4 input {
+  display: flex;
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 680px;
+  border-radius: 5px;
+}
+
+.answer_5 input {
+  display: flex;
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 515px;
+  border-radius: 5px;
+}
+
+.select_5 {
+  padding-left: 10px;
+}
+
+.select_5 select{
+  height: 32px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.answer_6 input {
+  border: 1px solid #cccccc;
+  height: 32px;
+  width: 768px;
+  border-radius: 5px;
+}
+
+/* добавить еще */
+.applicationAddElse {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  font-size: 16px;
+  font-weight: 200;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.applicationAddElse:hover {
+  color: #4178be;
+  font-weight: 400;
+  border: 1px solid #4178be;
+}
+
+.createApplicationButton {
+  display: flex;
+  justify-content: center;
+}
+
+.styledCreateApplicationButton {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 40px 5px 40px;
+}
+
+.styledCreateApplicationButton:hover {
+  background-color: white;
+  border: 1px solid #333333;
+  color: #333333;
+}
+
+.s select option{
+  border-color: antiquewhite;
+}

@@ -1,0 +1,67 @@
+.report {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  margin-top: 20px;
+  height: 377px;
+}
+
+.period {
+  display: flex;
+}
+
+.period h5 {
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px 0 20px 50px;
+}
+
+.report h3 {
+  font-weight: 700;
+  margin: 20px 0 20px 50px;
+  font-size: 25px;
+}
+
+.report li {
+  margin: 20px 0 20px 20px;
+}
+
+.line {
+  display: flex;
+  width: 50%;
+  margin-bottom: 10px;
+  border-top: 1px solid black;
+  margin: 0 25px 10px 25px;
+}
+
+.priority {
+  display: flex;
+  float: right;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #4178be;
+  border: 4px solid rgb(58, 56, 56);
+  border-radius: 100px;
+  margin-right: 50px;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.textBox{
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0 10px 20px;
+  display: flex;
+  float: right;
+}
+
+
