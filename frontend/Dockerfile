@@ -10,5 +10,3 @@ COPY . /ibm-ix-3/frontend/
 EXPOSE 3000 
 
 RUN npm i
-RUN npm audit fix
-

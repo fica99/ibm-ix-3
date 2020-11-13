@@ -1,6 +1,9 @@
 # ibm-ix-3
 🛩 👨‍✈️ ✈️ IBM iX project. Our task is to help the airline to improve the system of distribution of pilots and flight attendants on its flights. This solution will make the appointment of aircrew members to the flight effective and fair. 
 
+![Sign](https://i.ibb.co/svKYQ7n/Screen-Shot-2020-11-13-at-4-37-44-PM.png)
+
+![Applications](https://i.ibb.co/SRMPBR3/Screen-Shot-2020-11-13-at-4-38-23-PM.png)
 
 ## About IBM iX
 
@@ -46,4 +49,4 @@ $> docker-compose build
 $> docker-compose up
 ```
 
-Open http://0.0.0.0:5000 in your browser.
+Open http://0.0.0.0:3000 in your browser.
